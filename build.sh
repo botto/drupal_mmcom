@@ -14,8 +14,9 @@ if [ -d $SITE_DIR ]; then
 
     if [ $? -eq 0 ]; then
       cd $SITE_DIR
-      $DRUSH_CMD si --sites-subdir=$SITE_NAME --site-name=$SITE_NAME --db-url=sqlite://sites/$SITE_NAME/files/.ht.sqlite --account-pass=test
+      $DRUSH_CMD si minimal --sites-subdir=$SITE_NAME --site-name=$SITE_NAME --db-url=sqlite://sites/$SITE_NAME/files/.ht.sqlite --account-pass=test
       chgrp -R $WWW_GROUP sites/$SITE_NAME/files
+      chmod -R g+wrx sites/$SITE_NAME/files
 
       if [ $? -eq 0 ]; then
         cd $SCRIPT_PWD

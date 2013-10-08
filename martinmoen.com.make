@@ -47,6 +47,8 @@ projects[jquery_update][version] = 2.3
 projects[jquery_update][type] = "module"
 projects[views][version] = 3.7
 projects[views][type] = "module"
+projects[feeds][version] = 2.0-alpha8
+projects[feeds][type] = "module"
 
   
 

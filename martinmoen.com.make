@@ -55,7 +55,14 @@ projects[feeds][type] = "module"
 ; Themes
 ; --------
 
+; Profile
+; --------
 
+projects[martinmoencom][type] = "profile"
+projects[martinmoencom][download][type] = "git"
+projects[martinmoencom][download][uml] = "/Users/mmoen/Sites/martinmoen.com/profile"
+;Have to set this individually because profiles are not in subdirs
+projects[martinmoencom][subdir] = ""
 
 ; Libraries
 ; ---------

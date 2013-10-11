@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SITE_DIR="../build"
+SITE_DIR="build"
 SITE_NAME="martinmoen.com"
 DRUSH_CMD="drush -y -vv"
 SCRIPT_PWD=`pwd`

@@ -32,23 +32,47 @@ projects[drupal][version] = 7.23
 
 
 ; Modules
-; --------
-projects[admin_menu][version] = 3.0-rc4
-projects[admin_menu][type] = "module"
-projects[module_filter][version] = 1.8
-projects[module_filter][type] = "module"
-projects[devel][version] = 1.3
-projects[devel][type] = "module"
-projects[features][version] = 2.0-rc4
-projects[features][type] = "module"
-projects[panels][version] = 3.3
-projects[panels][type] = "module"
+; -------
+
+; Core Modules
+; ------------
 projects[jquery_update][version] = 2.3
 projects[jquery_update][type] = "module"
+
+projects[ctools][version] = 1.3
+projects[ctools][type] = "module"
+
+projects[job_scheduler][version] = 2.0-alpha3
+projects[job_scheduler][type] = "module"
+
+; Implementation Modules
+; ----------------------
+projects[features][version] = 2.0-rc4
+projects[features][type] = "module"
+
+projects[panels][version] = 3.3
+projects[panels][type] = "module"
+
 projects[views][version] = 3.7
 projects[views][type] = "module"
+
 projects[feeds][version] = 2.0-alpha8
 projects[feeds][type] = "module"
+
+; Admin Module
+; ------------
+projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][type] = "module"
+
+projects[module_filter][version] = 1.8
+projects[module_filter][type] = "module"
+
+; Dev Modules
+; -----------
+projects[devel][version] = 1.3
+projects[devel][type] = "module"
+
+
 
 
 
@@ -60,7 +84,7 @@ projects[feeds][type] = "module"
 
 projects[martinmoencom][type] = "profile"
 projects[martinmoencom][download][type] = "git"
-projects[martinmoencom][download][uml] = "/Users/mmoen/Sites/martinmoen.com/profile"
+projects[martinmoencom][download][url] = "/Users/mmoen/Sites/martinmoen.com/profile"
 ;Have to set this individually because profiles are not in subdirs
 projects[martinmoencom][subdir] = ""
 

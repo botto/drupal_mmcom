@@ -59,8 +59,8 @@ projects[views][type] = "module"
 projects[feeds][version] = 2.0-alpha8
 projects[feeds][type] = "module"
 
-projects[smart_trim][version] = 1.4
-projects[smart_trim][type] = "module"
+projects[uuid][version] = 1.0-alpha5
+projects[uuid][type] = "module"
 
 ; Admin Module
 ; ------------

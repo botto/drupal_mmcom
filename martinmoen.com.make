@@ -72,6 +72,12 @@ projects[module_filter][type] = "module"
 projects[devel][version] = 1.3
 projects[devel][type] = "module"
 
+; Features
+; --------
+projects[news][type] = "module"
+projects[news][download][type] = "git"
+projects[news][download][url] = "/Users/mmoen/Sites/martinmoen.com/news"
+
 
 
 
